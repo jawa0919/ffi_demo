@@ -1,0 +1,22 @@
+PODS:
+  - demo_lib (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - demo_lib (from `.symlinks/plugins/demo_lib/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  demo_lib:
+    :path: ".symlinks/plugins/demo_lib/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  demo_lib: c2fa20b08dc72407704dc77ee57c36dd9175cb99
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,15 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: DemoLibBindings
+description: |
+  Bindings for `src/demo_lib.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+output: 'lib/demo_lib_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/demo_lib.h'
+  include-directives:
+    - 'src/demo_lib.h'
+comments:
+  style: any
+  length: full
